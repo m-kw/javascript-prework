@@ -22,7 +22,7 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 50px 30px;
 }
 
 .section {
@@ -52,4 +52,20 @@ body {
 .page-title {
   color: #ffffff;
   font-size: 60px;
+}
+
+/* Game */
+
+button {
+  font-family: $font-text;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 20px;
+  margin: 20px 20px;
+  background-color: $main-color;
+  border-radius: 5px;
+  &:hover {
+    background-color: $color-light;
+    color: $main-color;
+  }
 }
