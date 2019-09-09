@@ -10,6 +10,5 @@ function clearMessages() {
 
 function printResult(playerWins, computerWins) {
 	var div = document.createElement('div');
-	div.innerHTML = (playerWins + '  -  ' + computerWins);
-	document.getElementById('result').appendChild(div);
+	document.getElementById('result').innerHTML = (playerWins + '  -  ' + computerWins);
 }
